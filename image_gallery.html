@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lightbox2-master Image Slider</title>
+	 <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="css/lightbox.min.css">
+     <script src="js/lightbox-plus-jquery.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+   <style>
+   	body {
+   		font-family: sans-serif;
+   	}
+   	.gallery{
+   		margin:10px 50px;
+   	}
+   	.gallery img{
+   		width: 230px;
+   		padding: 5px;
+   		filter: grayscale(100%);
+   		transition: 2s;
+   	}
+   	.gallery img:hover
+   	{
+   		filter: grayscale(0);
+   		transform: scale(1.1);
+   	}
+   </style>
+<body>
+<div class="container">
+    <div class="row">
+    	<div class="col-lg-4">
+    		<div class="gallery">
+    			<a href="images/1.jpg" data-title="Image1" data-lightbox="mygallery"><img src="images/1.jpg"></a>
+    		</div>
+    	</div>
+    	<div class="col-lg-4">
+    		<div class="gallery">
+    			<a href="images/2.jpg"data-title="Image2" data-lightbox="mygallery"><img src="images/2.jpg"></a>
+    		</div>
+    	</div>
+    	<div class="col-lg-4">
+    		<div class="gallery">
+    			<a href="images/3.jpg"data-title="Image3" data-lightbox="mygallery"><img src="images/3.jpg"></a>
+    		</div>
+    	</div>
+    </div>
+
+    <div class="row">
+    	<div class="col-lg-4">
+    		<div class="gallery">
+    			<a href="images/4.jpg"data-title="Image4" data-lightbox="mygallery"><img src="images/4.jpg"></a>
+    			
+    		</div>
+    	</div>
+    	<div class="col-lg-4">
+    		<div class="gallery">
+    			<a href="images/5.jpg" data-title="Image5" data-lightbox="mygallery"><img src="images/5.jpg"></a>
+    			
+    		</div>
+    	</div>
+    	<div class="col-lg-4">
+    		<div class="gallery">
+    			<a href="images/6.jpg"data-title="Image6" data-lightbox="mygallery"><img src="images/6.jpg"></a>
+    			
+    		</div>
+    	</div>
+    </div>
+	
+</div>
+
+
+
+
+
+
+
+
+	<!--<script src="js/lightbox-plus-jqquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
+</body>
+</html>
